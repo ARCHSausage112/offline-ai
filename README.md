@@ -1,13 +1,21 @@
-# Scroll Infinito 3D
+# Continuum 3D · Infinite Three Scroll
 
-Un sito statico in italiano con uno scroll apparentemente infinito, animazioni 3D in CSS, canvas starfield e sezioni duplicate via JavaScript per creare un loop continuo.
+Esperienza web dinamica ispirata agli showcase di three.js: una singola scena WebGL che cambia progressivamente durante lo scroll, senza sezioni/pagine staccate.
 
-## Avvio rapido
+## Caratteristiche
 
-Apri `index.html` direttamente nel browser oppure servi la cartella con un server statico:
+- Scena Three.js full-screen con camera in viaggio continuo.
+- Tunnel neon, cloud di particelle, orbite, campo di cristalli/cubi e ribbon luminoso.
+- Scroll infinito: quando arrivi ai bordi, la posizione viene riportata nel cuore del continuum.
+- HUD e progress bar che raccontano la fase corrente della trasformazione.
+
+## Avvio
+
+Installa le dipendenze e avvia Vite:
 
 ```bash
-python3 -m http.server 4173
+npm install
+npm run dev
 ```
 
-Poi visita <http://localhost:4173>.
+Poi visita l'URL mostrato da Vite.
