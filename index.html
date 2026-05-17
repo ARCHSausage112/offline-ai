@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Infinito 3D</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="starfield" aria-hidden="true"></canvas>
+
+    <main class="infinite-stage" aria-label="Esperienza di scroll infinito con animazioni 3D">
+      <section class="hero panel">
+        <div class="hero__copy">
+          <p class="eyebrow">Infinite cosmic loop</p>
+          <h1>Scorri per sempre dentro un universo 3D.</h1>
+          <p>
+            Un sito statico super leggero con tunnel prospettico, oggetti fluttuanti,
+            orbite luminose e sezioni che si ripetono senza fine.
+          </p>
+        </div>
+        <div class="scene scene--hero" aria-hidden="true">
+          <div class="portal">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="planet planet--main"></div>
+          <div class="satellite satellite--one"></div>
+          <div class="satellite satellite--two"></div>
+        </div>
+      </section>
+
+      <section class="panel panel--split">
+        <div>
+          <p class="eyebrow">01 · Gravità neon</p>
+          <h2>Cards che orbitano nello spazio.</h2>
+          <p>Ogni blocco entra in scena con profondità, blur dinamico e parallasse 3D.</p>
+        </div>
+        <div class="card-stack" aria-hidden="true">
+          <article class="glass-card">Nebula UI</article>
+          <article class="glass-card">Hologram</article>
+          <article class="glass-card">Warp Core</article>
+        </div>
+      </section>
+
+      <section class="panel panel--center">
+        <p class="eyebrow">02 · Hyperdrive</p>
+        <h2>Un tunnel infinito sotto le dita.</h2>
+        <div class="warp-tunnel" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </section>
+
+      <section class="panel panel--split panel--reverse">
+        <div class="cube-field" aria-hidden="true">
+          <div class="cube cube--a"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+          <div class="cube cube--b"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+          <div class="cube cube--c"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+        </div>
+        <div>
+          <p class="eyebrow">03 · Geometrie vive</p>
+          <h2>Cubi 3D reali, solo HTML e CSS.</h2>
+          <p>Le forme reagiscono al movimento, ruotano nello spazio e sembrano uscire dallo schermo.</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="scroll-hint" aria-hidden="true">scrolla ↓</div>
+    <script src="script.js"></script>
+  </body>
+</html>
